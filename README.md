@@ -89,28 +89,9 @@ Distance Weight = 1 / (1 + (Min_Mahalanobis_Distance)²)
 - **Evaluation**: Comprehensive accuracy matrices and confusion analysis
 - **Visualization**: Performance tracking across sequential datasets
 
-## 📁 Project Structure
-
-```
-├── notebooks/
-│   ├── task1_continual_learning.ipynb
-│   ├── task2_domain_adaptation.ipynb
-│   └── feature_extraction.ipynb
-├── reports/
-│   ├── report_group46-2.pdf
-│   └── presentation_slides.pptx
-├── data/
-│   ├── D1_D10/          # Same distribution datasets
-│   └── D11_D20/         # Domain shift datasets
-└── utils/
-    ├── lwp_classifier.py
-    ├── feature_extractors.py
-    └── evaluation_metrics.py
-```
-
 ## 🎓 Key Contributions
 
-1. **Comprehensive Architecture Analysis**: First systematic comparison of 16 architectures for LWP-based continual learning
+1. **Comprehensive Architecture Analysis**: Comparison of 16 architectures for LWP-based continual learning
 2. **Novel Class-Weighted Clustering**: Distance-based weighting for improved prototype updates
 3. **Domain Shift Robustness**: Effective handling of distribution changes in sequential learning
 4. **Catastrophic Forgetting Mitigation**: 95.72% accuracy retention across 20 sequential datasets
